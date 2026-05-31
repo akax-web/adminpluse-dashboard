@@ -9,5 +9,8 @@
     "preview": "npm run preview --prefix adminpulse-frontend",
     "install:frontend": "npm install --prefix adminpulse-frontend",
     "deploy": "npm run build --prefix adminpulse-frontend"
+  },
+  "devDependencies": {
+    "terser": "^5.48.0"
   }
 }
