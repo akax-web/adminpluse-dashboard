@@ -1,0 +1,13 @@
+{
+  "name": "adminpulse",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AdminPulse Dashboard - run npm commands from project root",
+  "scripts": {
+    "dev": "npm run dev --prefix adminpulse-frontend",
+    "build": "npm run build --prefix adminpulse-frontend",
+    "preview": "npm run preview --prefix adminpulse-frontend",
+    "install:frontend": "npm install --prefix adminpulse-frontend",
+    "deploy": "npm run build --prefix adminpulse-frontend"
+  }
+}
